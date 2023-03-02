@@ -282,6 +282,21 @@ button {
 	font-family: inherit;
 }
 /*============/Hero====*/
+/*============<!--Section 1-->========*/
+
+.tumb {
+	width: 264px;
+	height: 112px;
+	background: #f4f4fd;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	margin-bottom: 8px;
+}
+
+/*============/<!--Section 3-->========*/
 
 /*============<!--Section 3-->========*/
 .person-title {
