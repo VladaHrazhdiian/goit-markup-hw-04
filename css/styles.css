@@ -88,6 +88,7 @@ button {
 	background: #2e2f42;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	display: block;
 }
 .footer-discription {
 	color: #e7e9fc;
@@ -248,8 +249,7 @@ button {
 	row-gap: 48px;
 }
 
-.img-content-hover:hover,
-.img-content-hover:focus {
+.img-content-hover:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -429,4 +429,57 @@ button {
 	color: var(--secondary-title-color);
 }
 
-/*=================/Filters===============*/
+/*=================/<Filters===============*/
+
+/*=================/Footer===============*/
+
+.footer-dislay {
+	display: flex;
+	column-gap: 120px;
+}
+.footer-social-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.footer-list {
+	justify-content: center;
+}
+
+.footer-list-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+	background-color: #31d0aa;
+}
+
+.footer-list-icon {
+	fill: #f4f4fd;
+}
+
+.Social-title {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500px;
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 16px;
+	letter-spacing: 0.02em;
+	line-height: 24px;
+}
+
+.footer-list-item {
+	width: 44px;
+	height: 44px;
+}
+/*=================/<Footer===============*/
