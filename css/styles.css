@@ -238,8 +238,6 @@ button {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-	border-radius: 0px 0px 4px 4px;
 }
 
 .img-list {
@@ -249,7 +247,11 @@ button {
 	row-gap: 48px;
 }
 
-.img-content-hover:hover {
+.img-content-link {
+	display: block;
+}
+
+.img-content-link:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -288,15 +290,13 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-button {
+hover button {
 	font-family: inherit;
 }
 /*============/Hero====*/
 /*============<!--Section 1-->========*/
 
 .tumb {
-	width: 264px;
 	height: 112px;
 	background: #f4f4fd;
 	border-radius: 4px;
@@ -333,6 +333,8 @@ button {
 	padding-right: 16px;
 	text-align: center;
 	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .img-content {
@@ -388,7 +390,7 @@ button {
 .client-list-link:hover,
 .cclient-list-link:focus {
 	color: #404bbf;
-	border: 1px solid #404bbf;
+	border-color: #404bbf;
 }
 
 /*============/<!--Section 3-->========*/
@@ -479,7 +481,7 @@ button {
 }
 
 .footer-list-item {
-	width: 44px;
-	height: 44px;
+	width: 40px;
+	height: 40px;
 }
 /*=================/<Footer===============*/
